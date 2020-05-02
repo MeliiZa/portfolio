@@ -6,15 +6,17 @@
     <!-- Bootstrap CSS-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Additional CSS must be placed after bootstrap CSS-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
 
     <title>Melissa Zandman</title>
 </head>
 <body>
 <!-- Image and text -->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <a class="navbar-brand" href="#"></a>
   <img src="img/logoNav.gif" width="110" height="40" class="d-inline-block align-top" alt="">
   <button
@@ -30,19 +32,16 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"
-          >Home <span class="sr-only">(current)</span></a
-        >
+ 
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Me</a>
+        <a class="nav-link" href="#aboutMe">About Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#Contact">Contact</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Resume</a>
@@ -54,6 +53,8 @@
 <div class="container col-sm-2 col-md-12">
   <div class="text-center">
     <img id="logomiddle" src="img/logoNav.gif" width="500" data-toggle="modal" data-target="#basicExampleModal">
+    <span class="tooltip">Melissa Zandman is a Latina full-stack software engineer based in San Francisco. She loves coding and everything holographic. 💁🏻‍♀️</span>
+
     <!-- Modal -->
     <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -68,7 +69,105 @@
       </div>
     </div>
   </div>
+  </div>
 </div>
+<hr>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col text-center" id="projects">
+      <h1>Projects</h1>
+        <!--Grid row-->
+<div class="row mb-4 wow fadeIn">
+  <div class="col-lg-4 col-md-6 mb-4 text-center mx-auto">
+
+    <!--Card-->
+    <div class="card">
+
+      <!--Card image-->
+      <div class="view overlay">
+        <img src="img/badfoodu.jpg" class="card-img-top" alt="">
+        <a href="https://mdbootstrap.com/react/" target="_blank">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+        <!--Title-->
+        <h4 class="card-title">BadFoodU</h4>
+        <!--Text-->
+        <p class="card-text">BadFoodU is a web-based platform that uses crowdsourced data to pinpoint potential sources of food poisoning, and help people avoid getting sick. Users can enter symptoms and information about their most recent restaurant meals, and a map populates with restaurants that users have entered. </p>
+        <a href="https://mdbootstrap.com/react/" target="_blank" class="btn btn-info btn-md">See on Github
+          <i class="fas fa-github ml-2"></i>
+        </a>
+      </div>
+
+    </div>
+    <!--/.Card-->
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-lg-4 col-md-6 mb-4 text-center mx-auto">
+
+    <!--Card-->
+    <div class="card">
+
+      <!--Card image-->
+      <div class="view overlay">
+        <img src="img/metengine.png" class="card-img-top" alt="">
+        <a href="https://mdbootstrap.com/vue/" target="_blank">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!--Card content-->
+      <div class="card-body">
+        <!--Title-->
+        <h4 class="card-title">Search the MET API</h4>
+        <!--Text-->
+        <p class="card-text">
+        This search engine will only show you 20 results coming from the Metropolitan Museum of Art API, and at first glance you will be able to see an image of the piece, the title and a link which can take you to the full site, as well it includes a "Show More" button where you can see dimensions of the piece, when is this piece dated from and classification.</p>
+        <a href="https://mdbootstrap.com/vue/" target="_blank" class="btn btn-info btn-md">See on Github
+          <i class="fas fa-github ml-2"></i>
+        </a>
+      </div>
+
+    </div>
+    <!--/.Card-->
+
+  </div>
+  <!--Grid column-->
+
+</div>
+<!--Grid row-->
+
+
+
+
+
+
+<hr>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col col-sm-6 text-center" id="aboutMe">
+      <h1>About Me</h1>
+    <div>
+  </div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat asperiores eligendi consequuntur at veritatis non nulla quam velit reprehenderit iusto odio fuga sint corporis rerum quaerat repellendus, dolor eum sed?
+  </div>
+  <div class="col" id="meliside">
+    <img src="./img/meliside.png">
+  </div>
+</div>
+<hr>
+<div class="grid">
+  <div class="col col-sm-6 text-center" id="contact">
+    <h1>Contact Me</h1>
+  </div>
+</div>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
