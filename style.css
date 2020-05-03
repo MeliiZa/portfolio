@@ -4,7 +4,6 @@
 body {
   background-color: #F7F1FC;
 
-
 }
 
 p{
@@ -74,4 +73,11 @@ hr{
 h1{
   color: #4c505B;
   font-family: "Montserrat",sans-serif;
+}
+
+#about{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
 }
