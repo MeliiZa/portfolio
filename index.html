@@ -6,7 +6,11 @@
     <!-- Bootstrap CSS-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Additional CSS must be placed after bootstrap CSS-->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -52,7 +56,7 @@
 <!--Logo middle with Modal-->
 <div class="container col-sm-1 col-md-12">
   <div class="text-center">
-    <img id="logomiddle" src="img/logoNav.gif" width="500" data-toggle="modal" data-target="#basicExampleModal">
+    <img id="logomiddle" src="img/logoNav.gif" class="img-fluid" width="500" data-toggle="modal" data-target="#basicExampleModal">
     <span class="tooltip">Melissa Zandman is a Latina full-stack software engineer based in San Francisco. She loves coding and everything holographic. 💁🏻‍♀️</span>
 
     <!-- Modal -->
@@ -77,12 +81,10 @@
     <div class="col text-center" id="projects">
       <h1>Projects</h1>
         <!--Grid row-->
-<div class="row mb-4 wow fadeIn">
+<div class="row mb-4">
   <div class="col-lg-4 col-md-6 mb-4 text-center mx-auto">
-
     <!--Card-->
     <div class="card">
-
       <!--Card image-->
       <div class="view overlay">
         <img src="img/badfoodu.jpg" class="card-img-top" alt="">
@@ -149,18 +151,18 @@
 <hr>
 <div class="container-fluid" id="about">
   <div class="row">
-    <div class="col-md-6 col-sm-1 mb-1 mx-auto mb-6" id="aboutMe">
+    <div class="col-md-6 col-sm-4 mb-1 mx-auto mb-6" id="aboutMe">
       <h1>About Me</h1>
-        <div class="row">
+      <br>
           After beginning her career as an industrial engineer in her native México, Melissa moved to San Francisco in 2018 to live with her now-husband. Once here, she was inspired to pursue a career in software engineering—an interest of hers since getting her first MSDOS-based computer at age 7.
           <br>
           <br>Besides engineering, she loves everything holographic or iridescent and she is passionate about crafting, design, and good tacos.
-        </div>
     </div>
   </div>
-  <div class="col-md-6 col-sm-1 mb-1 mx-auto mb-6" id="meliside">
-    <img src="./img/meliside.png">
-  </div>
+
+    <div class="col-md-6 col-sm-2 mb-1 mx-auto mb-6" id="meliside">
+      <img src="./img/meliside.png" class="img-fluid">
+    </div>
 </div>
 <hr>
 <div class="container" id="contactMe">
