@@ -20,6 +20,8 @@ p{
 #logomiddle {
   transition: .2s;
   cursor: pointer;
+  display:flex;
+  align-items: center;
 
 }
 
@@ -81,3 +83,4 @@ h1{
 #basicExampleModal{
   text-align: center;
 }
+
