@@ -81,3 +81,7 @@ h1{
   display: flex;
   align-items: center;
 }
+
+#basicExampleModal{
+  text-align: center;
+}
