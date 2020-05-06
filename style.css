@@ -85,3 +85,7 @@ h1{
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  #meliside1{
+    width: 100%;}
+}
