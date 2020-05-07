@@ -54,20 +54,6 @@ h4{
   font-family: "Poppins",sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-  #meliside{
-    width: 100%;
-  }
-}
-#meliside{
-  -webkit-filter: drop-shadow(5px 10px 18px #888888);
-  filter: drop-shadow(5px 10px 18px #888888);
-  margin-top: 50px;
-}
-#meliside1{
-  margin-top: 30px;
-  width:100%;
-}
 #projects{
   margin-top: 50px;
 
@@ -84,7 +70,7 @@ h1{
 
 #about{
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 #basicExampleModal{
@@ -93,7 +79,7 @@ h1{
  
 
 #contactMe{
-  margin-top: 50px;
+  margin-top: 90px;
   margin-bottom: 50px;
 }
 
@@ -103,3 +89,21 @@ h1{
   margin-bottom: 50px;
 }
 
+
+@media screen and (max-width: 600px) {
+  #meliside{
+    width: 100%;
+  }
+}
+#meliside{
+  -webkit-filter: drop-shadow(5px 10px 18px #888888);
+  filter: drop-shadow(5px 10px 18px #888888);
+  margin-top: 50px;
+  
+}
+#meliside1{
+  margin-top: 30px;
+  width:100%;
+  margin-bottom: 50px;
+
+}
