@@ -82,11 +82,7 @@ h1{
 #basicExampleModal{
   text-align: center;
 }
-
-@media screen and (max-width: 320px) {
-  #about{
-    width: 100%;}
-}
+ 
 
 #contactMe{
   margin-top: 50px;
@@ -100,4 +96,5 @@ h1{
 
 #meliside1{
   margin-top: 30px;
+  width:100%;
 }
