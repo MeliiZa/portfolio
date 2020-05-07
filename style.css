@@ -67,11 +67,11 @@ h1{
   color: #4c505B;
   font-family: "Montserrat",sans-serif;
 }
-
+/*
 #about{
   margin-top: 50px;
   margin-bottom: 70px;
-}
+}*/
 
 #basicExampleModal{
   text-align: center;
@@ -90,9 +90,10 @@ h1{
 }
 
 
-@media screen and (max-width: 600px) {
-  #meliside{
-    width: 100%;
+@media screen and (max-width: 320px) {
+  #melisidefoto{
+    width: 70%;
+    height: auto;
   }
 }
 #meliside{
@@ -103,8 +104,6 @@ h1{
 }
 #meliside1{
   margin-top: 30px;
-  width:100%;
-  height:auto;
   margin-bottom: 50px;
 
 }
