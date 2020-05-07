@@ -10,7 +10,7 @@ body {
 p{
   font-family: "Poppins";
 }
-.container{
+#washa{
   height: 85vh;
   display: flex;
   justify-content: center;
@@ -53,13 +53,13 @@ h4{
   color:grey;
   font-family: "Poppins",sans-serif;
 }
-
+/*
 #meliside{
   width: 150px;
   -webkit-filter: drop-shadow(5px 10px 18px #888888);
   filter: drop-shadow(5px 10px 18px #888888);
 }
-
+*/
 #projects{
   margin-top: 50px;
 
@@ -77,15 +77,27 @@ h1{
 #about{
   margin-top: 50px;
   margin-bottom: 50px;
-  display: flex;
-  align-items: center;
 }
 
 #basicExampleModal{
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-  #meliside1{
+@media screen and (max-width: 320px) {
+  #about{
     width: 100%;}
+}
+
+#contactMe{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#logos{
+  height: 100px;
+  width: 100px;
+}
+
+#meliside1{
+  margin-top: 30px;
 }
