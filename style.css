@@ -67,26 +67,27 @@ h1{
   color: #4c505B;
   font-family: "Montserrat",sans-serif;
 }
-/*
+
 #about{
   margin-top: 50px;
   margin-bottom: 70px;
-}*/
+}
 
 #basicExampleModal{
   text-align: center;
 }
  
 
-#contactMe{
-  margin-top: 90px;
+#contact{
+  margin-top: 150px;
   margin-bottom: 50px;
 }
 
 #logos{
-  height: 100px;
-  width: 100px;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  height: 80px;
+  width: 80px;
+  
 }
 
 
@@ -103,7 +104,11 @@ h1{
   
 }
 #meliside1{
-  margin-top: 30px;
-  margin-bottom: 50px;
 
+  margin-top: 150px;
+
+}
+
+#languages{
+  margin-top: 50px;
 }
