@@ -38,6 +38,7 @@ h4{
 }
 
 
+
 .card{
   margin-top: 70px;
   padding: 10px;
@@ -48,6 +49,14 @@ h4{
   color:black;
   font-family: "Montserrat";
 }
+
+.card-title2{
+  margin-bottom: 4px;
+  color:black;
+  font-family: "Montserrat";
+
+}
+
 
 .card-text{
   color:grey;
